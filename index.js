@@ -11,6 +11,7 @@ postData(data);
 
 
 function postData(data) {
+    // Data is in wireshark CSV format
     const ip = data[0][2];
     const port = data[0][7];
 
